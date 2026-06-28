@@ -13,7 +13,7 @@ function Login() {
   try {
 
     const res = await axios.post(
-      "https://quotation-dipped-overlying.ngrok-free.dev/ask-stream",
+      "https://quotation-dipped-overlying.ngrok-free.dev/login",
       {
         email,
         password,
