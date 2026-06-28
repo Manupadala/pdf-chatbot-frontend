@@ -12,7 +12,7 @@ function Register() {
   const handleRegister = async () => {
     try {
       await axios.post(
-        "https://quotation-dipped-overlying.ngrok-free.dev/ask-stream",
+        "https://quotation-dipped-overlying.ngrok-free.dev/register",
         {
           username,
           email,
