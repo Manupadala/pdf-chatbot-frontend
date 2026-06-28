@@ -29,7 +29,7 @@ console.log(
   localStorage.getItem("selectedPDF")
 );
       const response = await fetch(
-        "http://127.0.0.1:8000/ask-stream",
+        "https://quotation-dipped-overlying.ngrok-free.dev/ask-stream",
         {
           method: "POST",
           headers: {
